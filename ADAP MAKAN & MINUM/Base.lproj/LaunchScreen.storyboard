@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VbN-Lp-7hD">
+                                <rect key="frame" x="129" y="315" width="116" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="0OD-3n-e4M"/>
+                                    <constraint firstAttribute="height" constant="36" id="w4G-oZ-q0g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="oTn-rc-8zP">
+                                <rect key="frame" x="-107" y="-163" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="pQQ-Tu-1Xb"/>
+                                    <constraint firstAttribute="height" constant="667" id="uLA-NN-3ls"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oTn-rc-8zP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2gp-0b-8n0"/>
+                            <constraint firstItem="VbN-Lp-7hD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="Gju-aZ-i3q"/>
+                            <constraint firstItem="oTn-rc-8zP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IRf-cf-8Tv"/>
+                            <constraint firstItem="oTn-rc-8zP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nbe-Xr-J8Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VbN-Lp-7hD" secondAttribute="trailing" constant="130" id="XBU-ku-mms"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VbN-Lp-7hD" secondAttribute="bottom" constant="316" id="dqX-cf-Nmg"/>
+                            <constraint firstItem="VbN-Lp-7hD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="295" id="hAX-cG-3Fs"/>
+                            <constraint firstItem="oTn-rc-8zP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="j3k-59-hZk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="adap makan 2" width="225" height="225"/>
+    </resources>
+</document>

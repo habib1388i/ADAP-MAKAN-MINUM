@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="taB-tt-LgG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8Ib-ZG-svd">
+            <objects>
+                <navigationController id="taB-tt-LgG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UKq-8U-y0r">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="R9p-uf-BQx" kind="relationship" relationship="rootViewController" id="OQt-Y3-aTD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qqx-Nz-gum" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-845" y="-436"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z5p-jj-B98">
+            <objects>
+                <viewController id="ZWZ-gG-Rqf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OtT-5W-Sms">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="Tcw-pg-ZtF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Hdb-us-Clj"/>
+                                    <constraint firstAttribute="height" constant="667" id="OvN-8n-lfr"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trn-WR-Y70">
+                                <rect key="frame" x="79" y="248" width="216" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="J7b-26-kNQ"/>
+                                    <constraint firstAttribute="width" constant="216" id="L9G-Tq-588"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="ADAB MAKAN">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oQB-Sx-rVu" kind="show" id="cIC-47-HjO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6M-xi-6hD">
+                                <rect key="frame" x="79" y="383" width="216" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="216" id="mLD-1d-stf"/>
+                                    <constraint firstAttribute="height" constant="46" id="tny-EB-gbA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="ADAB MINUM">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="31T-DW-HNi" kind="show" id="3i0-L9-8HA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tcw-pg-ZtF" firstAttribute="trailing" secondItem="kIc-0T-0pN" secondAttribute="trailing" id="CjP-Z8-CHf"/>
+                            <constraint firstItem="kIc-0T-0pN" firstAttribute="trailing" secondItem="Trn-WR-Y70" secondAttribute="trailing" constant="80" id="GB1-W5-jgq"/>
+                            <constraint firstItem="Tcw-pg-ZtF" firstAttribute="leading" secondItem="kIc-0T-0pN" secondAttribute="leading" id="Kwa-AH-niE"/>
+                            <constraint firstItem="h6M-xi-6hD" firstAttribute="leading" secondItem="kIc-0T-0pN" secondAttribute="leading" constant="79" id="NA8-c5-XsR"/>
+                            <constraint firstItem="kIc-0T-0pN" firstAttribute="bottom" secondItem="h6M-xi-6hD" secondAttribute="bottom" constant="238" id="Q7T-7R-zV8"/>
+                            <constraint firstItem="Trn-WR-Y70" firstAttribute="leading" secondItem="kIc-0T-0pN" secondAttribute="leading" constant="79" id="W29-lP-RP3"/>
+                            <constraint firstItem="Tcw-pg-ZtF" firstAttribute="top" secondItem="OtT-5W-Sms" secondAttribute="top" id="Ysi-ct-Tmr"/>
+                            <constraint firstItem="kIc-0T-0pN" firstAttribute="trailing" secondItem="h6M-xi-6hD" secondAttribute="trailing" constant="80" id="fgD-Pc-bj9"/>
+                            <constraint firstItem="Trn-WR-Y70" firstAttribute="top" secondItem="kIc-0T-0pN" secondAttribute="top" constant="184" id="hPb-Iu-lB3"/>
+                            <constraint firstItem="Tcw-pg-ZtF" firstAttribute="bottom" secondItem="kIc-0T-0pN" secondAttribute="bottom" id="pHF-Rg-roD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kIc-0T-0pN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVv-Bd-iXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-847.20000000000005" y="241.52923538230885"/>
+        </scene>
+        <!--HOME-->
+        <scene sceneID="zMY-bF-qz8">
+            <objects>
+                <viewController id="R9p-uf-BQx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dEl-vF-IEo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="4mA-L1-87z">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="9PH-ST-kVy"/>
+                                    <constraint firstAttribute="width" constant="375" id="nz2-FX-azU"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yf-xR-Mrm">
+                                <rect key="frame" x="66" y="318" width="242" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KAO-Iu-cZG"/>
+                                    <constraint firstAttribute="width" constant="242" id="Kfd-qV-cbV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="76"/>
+                                <state key="normal" title="mulai">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xP4-0W-Bko" kind="show" id="e5M-kr-miC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4mA-L1-87z" firstAttribute="trailing" secondItem="Emj-oz-igd" secondAttribute="trailing" id="Aun-pH-Qw1"/>
+                            <constraint firstItem="Emj-oz-igd" firstAttribute="bottom" secondItem="7Yf-xR-Mrm" secondAttribute="bottom" constant="319" id="RRq-EZ-Xth"/>
+                            <constraint firstItem="Emj-oz-igd" firstAttribute="trailing" secondItem="7Yf-xR-Mrm" secondAttribute="trailing" constant="67" id="daJ-gU-xKd"/>
+                            <constraint firstItem="4mA-L1-87z" firstAttribute="top" secondItem="dEl-vF-IEo" secondAttribute="top" id="g8t-nw-cho"/>
+                            <constraint firstItem="7Yf-xR-Mrm" firstAttribute="leading" secondItem="Emj-oz-igd" secondAttribute="leading" constant="66" id="iR5-CY-79U"/>
+                            <constraint firstItem="7Yf-xR-Mrm" firstAttribute="top" secondItem="Emj-oz-igd" secondAttribute="top" constant="254" id="nV3-nq-UNL"/>
+                            <constraint firstItem="4mA-L1-87z" firstAttribute="bottom" secondItem="Emj-oz-igd" secondAttribute="bottom" id="raz-tY-ukM"/>
+                            <constraint firstItem="4mA-L1-87z" firstAttribute="leading" secondItem="Emj-oz-igd" secondAttribute="leading" id="wLV-ro-7uG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Emj-oz-igd"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HOME" id="YQG-Wy-mWu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lje-ED-5VY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="-437.63118440779613"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="okH-zJ-zN5">
+            <objects>
+                <viewController id="oQB-Sx-rVu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CEK-tb-fIu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="DCs-Ye-pUm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="iKI-qJ-xHO"/>
+                                    <constraint firstAttribute="width" constant="375" id="pHG-BZ-g34"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d1Z-X5-YLs">
+                                <rect key="frame" x="16" y="196" width="343" height="379"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="0Gx-k0-b7E"/>
+                                    <constraint firstAttribute="height" constant="379" id="ufC-ef-kxI"/>
+                                </constraints>
+                                <string key="text">Islam adalah panduan hidup. Seperti makan, Islam memiliki panduan untuk umatnya melalui telada Nabi MUhammad SAW.
+
+
+Berikut ada beberaapa adab makan yang bersumber dari beberapa hadist;
+
+
+
+1. Meneyebut nama Allah subhanahu wa ta’ala sebelum makan.
+
+
+Sebelum kita makan, awali dengan membaca doa dengan menyebut namaNya, sebagai bentuk terima kasih kita atas nikmat yang telah diberikan.
+
+
+Rasulullah sallallahu alaihi wasallam berkata pada seorang anak laki-laki, 'Hai anak laki-laki! Sebutkan Nama Allah dan makanlah dengan tangan kananmu, dan makanlah makanan yang lebih dekat denganmu.
+
+
+"Sejak saat itu aku telah menerapkan instruksi itu saat makan.” (HR. Bukhari)
+
+
+2.   Makan makanan yang lebih dekat dengan posisi anda berada.
+
+
+Saat makan, banyak berbagai jenis makanan yang dihidangkan. Dan Rasulullah sallallahu alaihi wasallam menganjrkan kita untuk ambil makanan yang berada paling dekat dengan kita terlebih dahulu.
+
+
+Sebuah makanan dibawa ke Rasulullah sallallahu alaihi wasallam sementara anak tirinya, 'Umar bin Abi Salama bersamanya. Rasulullah SAW berkata kepadanya, "Sebutkan Nama Allah dan makanlah makanan yang lebih dekat denganmu." (HR. Bukhari)
+
+
+3. Makan dengan tangan kanan.
+
+
+Rasulullah sallallahu alaihi wasallam sangat menyukai melakukan segala hal dengan tangan kanan, termasuk ketika makan.
+
+
+Rasulullah shallallahu 'alaihi wasallam bersabda: "Jika salah seorang dari kalian makan, hendaklah ia makan dengan tangan kanannya dan minum dengan tangan kanannya. Sesungguhnya setan makan dan minum dengan tangan kirinya." (HR. Malik)
+
+
+4. Makan dengan tidak berlebihan.
+
+
+Sesuatu yang berlebihan itu tidak baik. Begitupun saat makan. Jika kebanyakan akan membuat kita menjadi orang yang malas setelahnya.
+
+
+Rasulullah sallallahu alaihi wasallam bersabda, "Orang percaya makan dalam satu usus (puas dengan sedikit makanan), dan orang kafir (tidak percaya) atau orang munafik makan di tujuh usus (makan terlalu banyak). (HR. Bukhari)
+
+
+5. Tidak makan sambil bersandar.
+
+
+Rasulullah sallallahu alahi wasallam berkata, "Saya tidak mengambil makanan saya sambil bersandar (melawan sesuatu). (HR. Bukhari)
+
+
+6. Tidak mencela makanan.
+
+
+Dikisahkan oleh Abu Hurairah] ia berkata, "Rasulullah shallallahu 'alaihi wasallam tidak pernah mencela makanan sama sekali, apabila senang maka beliau memakannya dan apabila tidak menyukai maka beliau meninggalkannya.” (HR. Abu Daud)
+
+
+7. Makan dari bagain bawah piring.
+
+
+Dikisahkan oleh Ibnu Abbas, dari Rasulullah shallallahu 'alaihi wasallam, beliau bersabda: "Apabila salah seorang di antara kalian makan makanan maka janganlah ia makan dari atas piring, tetapi hendaknya ia makan dari bawahnya, sesungguhnya berkah turun dari atasnya." (HR. Abu Daud)
+
+
+8. Dahulukan makan jika sudah tersaji saat Iqamah dikumandangkan.
+
+
+Dikisahkan oleh Ibnu Abbas, dari Rasulullah shallallahu 'alaihi wasallam, bahwasanya beliau bersabda: "Jika makan malam telah tersedia dan iqamah dikumandangkan, maka dahulukanlah makan malam." (HR. Tirmidzi).
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADAB MAKAN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PY-i8-fE6">
+                                <rect key="frame" x="100" y="120" width="174" height="37"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="i0N-p8-zjq"/>
+                                    <constraint firstAttribute="height" constant="37" id="tCv-Yg-Inx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI3-pu-LZY">
+                                <rect key="frame" x="154" y="608" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="wAg-Vd-rah"/>
+                                    <constraint firstAttribute="height" constant="30" id="xEh-Be-1A8"/>
+                                </constraints>
+                                <state key="normal" title="cek video">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rSy-aV-wDa" kind="show" id="KhV-ON-U4P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DCs-Ye-pUm" firstAttribute="leading" secondItem="VH2-yn-typ" secondAttribute="leading" id="39I-rj-bZF"/>
+                            <constraint firstItem="d1Z-X5-YLs" firstAttribute="leading" secondItem="VH2-yn-typ" secondAttribute="leading" constant="16" id="5Lb-0m-chN"/>
+                            <constraint firstItem="DCs-Ye-pUm" firstAttribute="top" secondItem="CEK-tb-fIu" secondAttribute="top" id="92i-ea-gKn"/>
+                            <constraint firstItem="3PY-i8-fE6" firstAttribute="top" secondItem="VH2-yn-typ" secondAttribute="top" constant="56" id="A1y-3A-t8N"/>
+                            <constraint firstItem="DCs-Ye-pUm" firstAttribute="trailing" secondItem="VH2-yn-typ" secondAttribute="trailing" id="ABW-LL-BAF"/>
+                            <constraint firstItem="DCs-Ye-pUm" firstAttribute="bottom" secondItem="VH2-yn-typ" secondAttribute="bottom" id="EPx-Am-Lpa"/>
+                            <constraint firstItem="VH2-yn-typ" firstAttribute="trailing" secondItem="3PY-i8-fE6" secondAttribute="trailing" constant="101" id="G3M-Vd-gbL"/>
+                            <constraint firstItem="VH2-yn-typ" firstAttribute="trailing" secondItem="TI3-pu-LZY" secondAttribute="trailing" constant="155" id="JKo-qT-X14"/>
+                            <constraint firstItem="TI3-pu-LZY" firstAttribute="leading" secondItem="VH2-yn-typ" secondAttribute="leading" constant="154" id="LWK-Fa-XZF"/>
+                            <constraint firstItem="d1Z-X5-YLs" firstAttribute="top" secondItem="3PY-i8-fE6" secondAttribute="bottom" constant="39" id="Ze9-P5-hRa"/>
+                            <constraint firstItem="VH2-yn-typ" firstAttribute="bottom" secondItem="TI3-pu-LZY" secondAttribute="bottom" constant="29" id="fCq-5l-aXt"/>
+                            <constraint firstItem="3PY-i8-fE6" firstAttribute="leading" secondItem="VH2-yn-typ" secondAttribute="leading" constant="100" id="foc-9Z-Gks"/>
+                            <constraint firstItem="VH2-yn-typ" firstAttribute="trailing" secondItem="d1Z-X5-YLs" secondAttribute="trailing" constant="16" id="qiw-Ob-Cpm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VH2-yn-typ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l19-E5-As7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="241.52923538230885"/>
+        </scene>
+        <!--Adab1 View Controller-->
+        <scene sceneID="h92-Xy-OIT">
+            <objects>
+                <viewController id="rSy-aV-wDa" customClass="adab1ViewController" customModule="ADAP_MAKAN___MINUM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hYf-EU-vcU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="STF-Kw-kP8" customClass="ada">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="1mf-Ka-O30"/>
+                                    <constraint firstAttribute="height" constant="667" id="AgE-V6-7On"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ei-WK-Ffm">
+                                <rect key="frame" x="141" y="318" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="d1R-aE-kDg"/>
+                                    <constraint firstAttribute="height" constant="30" id="nMY-ch-Eiu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="play">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPlay:" destination="rSy-aV-wDa" eventType="touchUpInside" id="UWk-s6-wQM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2ei-WK-Ffm" firstAttribute="top" secondItem="lZV-pt-AVf" secondAttribute="top" constant="254" id="0i4-i9-dtU"/>
+                            <constraint firstItem="lZV-pt-AVf" firstAttribute="bottom" secondItem="2ei-WK-Ffm" secondAttribute="bottom" constant="319" id="1vh-Yh-WjI"/>
+                            <constraint firstItem="STF-Kw-kP8" firstAttribute="top" secondItem="hYf-EU-vcU" secondAttribute="top" id="3IC-y4-mVd"/>
+                            <constraint firstItem="2ei-WK-Ffm" firstAttribute="leading" secondItem="lZV-pt-AVf" secondAttribute="leading" constant="141" id="7ch-u6-D37"/>
+                            <constraint firstItem="STF-Kw-kP8" firstAttribute="trailing" secondItem="lZV-pt-AVf" secondAttribute="trailing" id="PXU-nh-A9E"/>
+                            <constraint firstItem="STF-Kw-kP8" firstAttribute="leading" secondItem="lZV-pt-AVf" secondAttribute="leading" id="Rjg-Pa-51C"/>
+                            <constraint firstItem="STF-Kw-kP8" firstAttribute="bottom" secondItem="lZV-pt-AVf" secondAttribute="bottom" id="v29-WT-dGw"/>
+                            <constraint firstItem="lZV-pt-AVf" firstAttribute="trailing" secondItem="2ei-WK-Ffm" secondAttribute="trailing" constant="142" id="zJb-Jc-wq5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lZV-pt-AVf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WSP-fA-9HR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="909.89505247376314"/>
+        </scene>
+        <!--Adab2 View Controller-->
+        <scene sceneID="oge-uL-Gh1">
+            <objects>
+                <viewController id="YDY-il-Wxs" customClass="adab2ViewController" customModule="ADAP_MAKAN___MINUM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qUC-p4-KDF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="y6O-K0-tvO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="4dX-ha-b2V"/>
+                                    <constraint firstAttribute="height" constant="667" id="IPJ-Xn-SG0"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zu-wC-3Kn">
+                                <rect key="frame" x="147" y="314" width="81" height="39"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="0te-4B-eV1"/>
+                                    <constraint firstAttribute="width" constant="81" id="sIq-xA-bY2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="play">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="action:" destination="YDY-il-Wxs" eventType="touchUpInside" id="bdz-2n-Ghw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y6O-K0-tvO" firstAttribute="top" secondItem="qUC-p4-KDF" secondAttribute="top" id="9at-xU-quv"/>
+                            <constraint firstItem="y6O-K0-tvO" firstAttribute="bottom" secondItem="pHM-NA-kJn" secondAttribute="bottom" id="Jhx-ep-hRB"/>
+                            <constraint firstItem="pHM-NA-kJn" firstAttribute="trailing" secondItem="1zu-wC-3Kn" secondAttribute="trailing" constant="147" id="LHj-Hd-uYz"/>
+                            <constraint firstItem="y6O-K0-tvO" firstAttribute="leading" secondItem="pHM-NA-kJn" secondAttribute="leading" id="Otl-pV-6qn"/>
+                            <constraint firstItem="1zu-wC-3Kn" firstAttribute="leading" secondItem="pHM-NA-kJn" secondAttribute="leading" constant="147" id="QII-Lz-259"/>
+                            <constraint firstItem="y6O-K0-tvO" firstAttribute="trailing" secondItem="pHM-NA-kJn" secondAttribute="trailing" id="Tba-gS-8jG"/>
+                            <constraint firstItem="1zu-wC-3Kn" firstAttribute="top" secondItem="pHM-NA-kJn" secondAttribute="top" constant="250" id="Xp5-zL-ee5"/>
+                            <constraint firstItem="pHM-NA-kJn" firstAttribute="bottom" secondItem="1zu-wC-3Kn" secondAttribute="bottom" constant="314" id="ha5-Ip-3HX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pHM-NA-kJn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nXF-5K-zKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="485.60000000000002" y="909.89505247376314"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5sB-2P-6Zy">
+            <objects>
+                <viewController id="31T-DW-HNi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="biv-SA-wpf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="mTg-r4-6il">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="AWK-kI-Hd2"/>
+                                    <constraint firstAttribute="width" constant="375" id="Rf9-1B-yub"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W2E-eM-Nli">
+                                <rect key="frame" x="16" y="201" width="343" height="379"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="379" id="Mzd-fm-Gad"/>
+                                    <constraint firstAttribute="width" constant="343" id="oEd-a9-NJL"/>
+                                </constraints>
+                                <string key="text">Rasulullah Sallallahu ‘Alaihi Wasalam telah menunjukkan contoh teladan yang terbaik. Jika sebelum ini ana telah postkan ‘Adab Makan Menurut Islam Dan Sunnah Rasulullah SAW’ dan kini tibalah pula ‘Adab Dan Cara Minum Rasulullah SAW’yang  boleh diikuti untuk menjaga kesihatan tubuh badan agar sentiasa sihat bagi memudahkan kita menjalani ibadah kepada Allah Ya Rahim Ya Karim.!
+ .
+.
+1.     Gunakan Tangan Kanan
+￼
+Nabi Muhammad shallallahu ‘alaihi wa sallam (SAW) mengajar untuk kita makan dan memegang bekas minuman menggunakan tangan kanan dan melarang umatnya menggunakan tangan kiri kerana ia adalah sifat syaitan dan ciri-ciri orang yang bongkak.
+Dari Jabir r.a. berkata, Rasulullah SAW bersabda; “Jangan engkau makan dengan (tangan) kirimu, sesungguhnya syaitan itu makan dan minum dengan (tangan) kirinya.” (HR Muslim)
+Rasulullah shallallahu ‘alaihi wa sallam bersabda; “Jika salah seorang dari kamu hendak makan, hendaklah makan dengan tangan kanan. Dan apabila ingin minum, hendaklah minum dengan tangan kanan. Sesungguhnya syaitan makan dengan tangan kirinya dan minum dengan tangan kirinya.” (HR. Muslim)
+ .
+.
+ 2.    Niat Kerana Allah SWT
+Hendaklah ketika minum berniat bagi menyegar dan menyihatkan tubuh badan supaya memudahkan beribadah dan kerana Allah SWT.
+Hadis daripada Umar bin al-Khattab r.a, Rasulullah SAW bersabda; “Sesungguhnya setiap amalan itu hanya dengan niat. Dan sesungguhnya setiap orang hanya mendapat balasan mengikut apa yang diniatkan.” (Riwayat al-Bukhari).
+.
+.
+ 3.    Baca ‘Basmallah’
+Memulai minum dengan Basmalah: ‘Bismillahir-rahmanir-rahim’ 
+Membaca Basmalah sebelum makan untuk mengelakkan penyakit. Kerana bakteria dan racun ada membuat perjanjian dengan Allah swt, apabila Basmalah dibaca maka bakteria dan racun akan musnah dari sumber makanan itu.
+“Apabila seseorang di antara kamu minum dan memakan makanan, katakanlah ‘Bismillah’. Apabila lupa pada permulaannya, katakanlah ‘Bismillahi fii awwalihi wa aakhirihi.’” (HR. Abu Dawud dan at-Tirmidzi)
+ .
+￼
+.
+4.    Membaca Doa
+Doa minum air;
+اَللَّهُمَّ اِنِّى اَشْرَبُهُ لِتَغْفِرَلِى وَلِتَفْعَلَ بِى، فَاغْفِرْلِى أَوِافْعَلْ
+Ya Allah! Sesungguhnya daku meminumnya dengan harapan Dikau mengampuni  daku dan mengabulkan maksudku; Maka ampunilah daku serta kabulkanlah.
+ .
+.
+5.    Minum Dengan Tiga Nafas
+Minum dengan tiga kali tegukan dan elakkan bernafas ke dalam bekas minuman. Setiap kali berhenti minum hendaklah diarahkan pernafasan ke tempat lain.Dari Abu Qatadah, Nabi shallallahu ‘alaihi wa sallam bersabda, “Jika kamu minum maka janganlah bernafas dalam bekas air minumnya.” (HR. Bukhari dan Muslim r.a.)
+.
+Nabi SAW sering meminum dengan tiga kali teguk, sambil bernafas di luar gelas dan mengucapkan ‘Alhamdulillah’ di antara tiga kali tegukan. Baginda SAW juga akan teruskan minum dengan setiap tegukan diselangi bernafas di luar gelas sehingga habis.
+Diriwayatkan dari Anas radhiyalaahu anhu (r.a.) bahawa Rasulullah SAW bernafas tiga kali ketika minum, “Rasulullah SAW biasa bernafas tiga kali sewaktu minum.” (HR. Muttafaq ‘alaih).
+
+Anas bin Malik  r.a. berkata lagi; Baginda SAW bersabda: “Sungguh, ini lebih mengenyangkan, menyembuhkan, dan menyegarkan”. (HR Bukhari dan Muslim)
+ 
+Dari Anas bin Malik radhiyallahu ‘anhu beliau mengatakan, “Ketika Rasulullah shallallahu ‘alaihi wa sallam minum beliau mengambil nafas di luar bekas air minum sebanyak tiga kali.” Dan Baginda SAW bersabda, “Hal itu lebih segar, lebih sedap dan lebih nikmat.” Anas mengatakan, “Oleh kerana itu ketika aku minum, aku bernafas tiga kali.” (HR. Bukhari no. 45631 dan Muslim no. 2028)
+ .
+.
+6.     Dilarang Meniup Minuman
+ 
+￼
+Jangan bernafas dan meniup air minum di dalam bekas, terutama meniup air yang panas, kerana perbuatan itu akan menjadikan minuman bertoksid disebabkan Co2 yang dihembuskan ke dalamnya.
+Ubay bin Ka’ab berkata: “Rasulullah SAW tidak pernah meniup makanan dan minuman, tidak bernafas di dalam cawan. Bahkan beliau melarang meniup makanan dan minuman.”
+ 
+Dari Ibnu Abbas, “Sesungguhnya Nabi shallallahu ‘alaihi wa sallam melarang untuk bernafas atau meniup bekas air minum.” (HR. Turmudzi no. 1888 dan Abu Dawud no. 3728, hadits ini dishahihkan oleh Al-Albani)
+Dalam Syarah Shahih Muslim, Imam Nawawi mengatakan, “Larangan bernafas dalam bekas air minum adalah termasuk etika kerana dikhuatirkan hal tersebut mengotori air minum atau menimbulkan bau yang tidak enak atau dibimbangkan ada sesuatu dari mulut dan hidung yang terjatuh ke dalamnya dan hal-hal semacam itu.”
+ .
+.
+7.     Hindari Menonggang
+￼
+Rasulullah SAW telah mengajarkan adab meminum air dengan cara duduk, menempelkan bibir ke air, bernafas di luar gelas serta tidak minum dengan cara menonggang. Maksudnya adalah mencegah masuknya udara ke dalam perut.
+ .
+.
+.
+8.   Minum Dalam Keadaan Duduk
+￼
+Janganlah kita minum dalam keadaan berdiri walaupun ia dibolehkan tetapi ia makruh yang menghampiri kepada haram.
+Anas juga berkata:  “Rasulullah SAW telah melarang minum sambil berdiri”. (HR Muslim)
+ .
+Jika tidak ada tempat untuk duduk adalah diharuskan minum sambil berdiri.
+Adapun Rasulullah SAW pernah sekali minum sambil berdiri, oleh kerana ada sesuatu yang menghalangi Baginda SAW untuk duduk, seperti penuh sesaknya manusia pada tempat-tempat suci, bukan merupakan kebiasaan. Ingat hanya sekali kerana darurat!
+ 
+Dari Ibnu Abbas beliau mengatakan, “Aku memberikan air zam-zam kepada Rasulullah shallallahu ‘alaihi wa sallam. Maka Baginda SAW lantas minum dalam keadaan berdiri.” (HR. Bukhari dan Muslim r.a.)
+ .
+.
+9.     Larangan Minum Dalam Bekas Besar
+￼
+Elakkan diri kita meminum dari bekas yang besar seperti teko dan cerek. Apabila kita minum dari bekas yang besar, lumrahnya kita akan meneguk air dan dalam proses minum itu, kita tentu akan bernafas dan menghembuskan nafas dari hidung kita.
+Sewaktu kita hembus, kita akan mengeluarkan CO2 iaitu carbon dioxide, yang apabila bercampur dengan air H20, akan menjadi H2CO3, iaitu sama dengan cuka, menyebabkan minuman itu menjadi acidic.
+Ibnu Abbas menambahkan: “Rasulullah SAW telah melarang minum dari mulut teko”. (HR Bukhori dan Ibnu Majah)
+ 
+Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Janganlah kamu minum sambil berdiri. Sesiapa terlupa sehingga minum sambil berdiri, maka hendaklah ia berusaha untuk memuntahkannya.” (HR. Ahmad r.a.)
+ .
+.
+ 10.  Menutup makanan dan minuman
+￼
+Tutuplah tempat minuman terutama pada malam hari. Rasulullah SAW mewajibkan menutup makanan untuk melindunginya dari pencemaran, sebagaimana dinyatakan dalam hadis Nabi SAW: “Tutuplah makanan dan minuman”.  (HR. Bukhari r.a.)
+ 
+Dari Jabir bin Abdillah, ia berkata, aku mendengar Rasulullah SAW bersabda, “Tutupilah bejana-bejana dan wadah air. Kerana dalam satu tahun ada satu malam, ketika itu turun wabak, tidaklah ia melalui bejana-bejana yang tidak tertutup, ataupun wadah air yang tidak diikat melainkan akan turun padanya sesuatu penyakit.” (HR. Muslim r.a.)
+ .
+.
+11.  Ucapkan Hamdalah, ‘Alhamdulillah’
+Setiap kali berhenti minum (pada setiap penafasan) dan setelah selesai minum bacalah ‘Alhamdullilah’ tanda kita bersyukur atas nikmat yang Allah SWT kurniakan.
+ .
+.
+12.  Mencuci mulut (berkumur) selepas makan
+￼
+
+Hal ini dimaksudkan untuk membersihkan gigi dari sisa makanan dan bakteria. Secara Rasulullah SAW beliau menekankan pentingnya berkumur setelah minum susu: “Berkumurlah kalian setelah minum susu, kerana di dalamnya mengandung lemak”. (HR. Ibnu Majah)
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADAB MINUM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlr-zz-xJh">
+                                <rect key="frame" x="100" y="115" width="174" height="37"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="rGw-QD-dJy"/>
+                                    <constraint firstAttribute="height" constant="37" id="vqP-6S-z1Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpO-VO-LN7">
+                                <rect key="frame" x="154" y="610" width="66" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="T4U-N1-LOH"/>
+                                    <constraint firstAttribute="height" constant="30" id="ifF-pe-DOf"/>
+                                </constraints>
+                                <state key="normal" title="cek video">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YDY-il-Wxs" kind="show" id="HhL-vf-XCj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="W2E-eM-Nli" firstAttribute="top" secondItem="Jlr-zz-xJh" secondAttribute="bottom" constant="49" id="2mc-OV-mLi"/>
+                            <constraint firstItem="GpO-VO-LN7" firstAttribute="leading" secondItem="1jo-6B-pcj" secondAttribute="leading" constant="154" id="Hnj-kf-gv0"/>
+                            <constraint firstItem="1jo-6B-pcj" firstAttribute="bottom" secondItem="GpO-VO-LN7" secondAttribute="bottom" constant="27" id="KbY-kk-iFh"/>
+                            <constraint firstItem="mTg-r4-6il" firstAttribute="leading" secondItem="1jo-6B-pcj" secondAttribute="leading" id="N7B-19-25F"/>
+                            <constraint firstItem="mTg-r4-6il" firstAttribute="trailing" secondItem="1jo-6B-pcj" secondAttribute="trailing" id="Oi2-90-Qgd"/>
+                            <constraint firstItem="W2E-eM-Nli" firstAttribute="leading" secondItem="1jo-6B-pcj" secondAttribute="leading" constant="16" id="ShN-8C-AAW"/>
+                            <constraint firstItem="1jo-6B-pcj" firstAttribute="trailing" secondItem="W2E-eM-Nli" secondAttribute="trailing" constant="16" id="Vqg-e8-Fq4"/>
+                            <constraint firstItem="Jlr-zz-xJh" firstAttribute="leading" secondItem="1jo-6B-pcj" secondAttribute="leading" constant="100" id="WNa-RD-UN1"/>
+                            <constraint firstItem="1jo-6B-pcj" firstAttribute="trailing" secondItem="GpO-VO-LN7" secondAttribute="trailing" constant="155" id="giq-zO-t9H"/>
+                            <constraint firstItem="mTg-r4-6il" firstAttribute="top" secondItem="biv-SA-wpf" secondAttribute="top" id="nch-YA-AQK"/>
+                            <constraint firstItem="mTg-r4-6il" firstAttribute="bottom" secondItem="1jo-6B-pcj" secondAttribute="bottom" id="toM-0p-FXf"/>
+                            <constraint firstItem="1jo-6B-pcj" firstAttribute="trailing" secondItem="Jlr-zz-xJh" secondAttribute="trailing" constant="101" id="ujl-MV-WpK"/>
+                            <constraint firstItem="Jlr-zz-xJh" firstAttribute="top" secondItem="1jo-6B-pcj" secondAttribute="top" constant="51" id="xK9-ic-a7W"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1jo-6B-pcj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="osF-hZ-k90" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="485.60000000000002" y="241.52923538230885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="im0-Xs-2KU">
+            <objects>
+                <viewController id="PIg-06-Vn3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O2D-ab-zha">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="j2a-pl-DC5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="3wB-vf-eb0"/>
+                                    <constraint firstAttribute="width" constant="375" id="lQn-bD-z9b"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eL-7i-h6T">
+                                <rect key="frame" x="107" y="110" width="161" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="D90-4V-Y9s"/>
+                                    <constraint firstAttribute="width" constant="161" id="grX-Y4-c6u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="&gt;&gt; ABOUTAPP &lt;&lt;">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vyv-dq-399">
+                                <rect key="frame" x="16" y="202" width="343" height="445"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="445" id="4MG-fA-JKg"/>
+                                    <constraint firstAttribute="width" constant="343" id="KcS-yR-idw"/>
+                                </constraints>
+                                <string key="text">diaplikasi ini adalah untuk membahas tatacara adab makan &amp; mungkin , bertujuan karena biar aplikasi ini mendalami tentang adab , supaya kita tidak seperti hewan</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="j2a-pl-DC5" firstAttribute="bottom" secondItem="Hvr-kl-Hvz" secondAttribute="bottom" id="0ZS-oX-nCR"/>
+                            <constraint firstItem="6eL-7i-h6T" firstAttribute="leading" secondItem="Hvr-kl-Hvz" secondAttribute="leading" constant="107" id="5xh-wU-bED"/>
+                            <constraint firstItem="Hvr-kl-Hvz" firstAttribute="bottom" secondItem="vyv-dq-399" secondAttribute="bottom" constant="20" id="8ZX-hf-wK1"/>
+                            <constraint firstItem="6eL-7i-h6T" firstAttribute="top" secondItem="Hvr-kl-Hvz" secondAttribute="top" constant="46" id="DlL-P6-WXN"/>
+                            <constraint firstItem="vyv-dq-399" firstAttribute="leading" secondItem="Hvr-kl-Hvz" secondAttribute="leading" constant="16" id="HQb-i6-BF7"/>
+                            <constraint firstItem="Hvr-kl-Hvz" firstAttribute="trailing" secondItem="vyv-dq-399" secondAttribute="trailing" constant="16" id="Ndw-YB-tkm"/>
+                            <constraint firstItem="j2a-pl-DC5" firstAttribute="leading" secondItem="Hvr-kl-Hvz" secondAttribute="leading" id="dyJ-4Y-6i1"/>
+                            <constraint firstItem="j2a-pl-DC5" firstAttribute="top" secondItem="O2D-ab-zha" secondAttribute="top" id="oAW-af-FU0"/>
+                            <constraint firstItem="Hvr-kl-Hvz" firstAttribute="trailing" secondItem="6eL-7i-h6T" secondAttribute="trailing" constant="107" id="u2i-ZB-6Uq"/>
+                            <constraint firstItem="j2a-pl-DC5" firstAttribute="trailing" secondItem="Hvr-kl-Hvz" secondAttribute="trailing" id="xLO-LY-fSr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hvr-kl-Hvz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="87T-os-i9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144.8" y="241.52923538230885"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="o5d-Aj-CWx">
+            <objects>
+                <viewController id="xP4-0W-Bko" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gcD-mT-xRY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="las-SA-otz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="B1W-vI-5ai"/>
+                                    <constraint firstAttribute="width" constant="375" id="gWd-LN-VMP"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4r-ig-oYN">
+                                <rect key="frame" x="90" y="318" width="173" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NWQ-9i-lDt"/>
+                                    <constraint firstAttribute="width" constant="173" id="jdU-Xy-3kR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="&gt;&gt; ABOUTDEV &lt;&lt;"/>
+                                <connections>
+                                    <segue destination="Y7f-JT-t04" kind="show" id="hTa-b7-pAd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kag-EG-DCj">
+                                <rect key="frame" x="90" y="415" width="194" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="8Vg-NQ-vbh"/>
+                                    <constraint firstAttribute="height" constant="30" id="T8H-Xp-04Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="&gt;&gt; ABOUTAPP &lt;&lt;"/>
+                                <connections>
+                                    <segue destination="PIg-06-Vn3" kind="show" id="mgd-Ws-RCx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5F-ec-4VP">
+                                <rect key="frame" x="101" y="226" width="173" height="30"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IHf-zq-88n"/>
+                                    <constraint firstAttribute="width" constant="173" id="keh-Mg-5nb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="&gt;&gt; ADAB &lt;&lt;"/>
+                                <connections>
+                                    <segue destination="ZWZ-gG-Rqf" kind="show" id="1Dx-NC-M6b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="d5F-ec-4VP" firstAttribute="top" secondItem="jrv-sm-EMA" secondAttribute="top" constant="162" id="2Uv-Hq-V2H"/>
+                            <constraint firstItem="jrv-sm-EMA" firstAttribute="trailing" secondItem="kag-EG-DCj" secondAttribute="trailing" constant="91" id="65Q-kP-Ceg"/>
+                            <constraint firstItem="las-SA-otz" firstAttribute="top" secondItem="gcD-mT-xRY" secondAttribute="top" id="Efn-ZR-INs"/>
+                            <constraint firstItem="P4r-ig-oYN" firstAttribute="top" secondItem="d5F-ec-4VP" secondAttribute="bottom" constant="62" id="FY8-1p-coC"/>
+                            <constraint firstItem="jrv-sm-EMA" firstAttribute="trailing" secondItem="d5F-ec-4VP" secondAttribute="trailing" constant="101" id="Gna-hU-HCh"/>
+                            <constraint firstItem="las-SA-otz" firstAttribute="leading" secondItem="jrv-sm-EMA" secondAttribute="leading" id="JkN-Tj-WPJ"/>
+                            <constraint firstItem="d5F-ec-4VP" firstAttribute="leading" secondItem="jrv-sm-EMA" secondAttribute="leading" constant="101" id="Lcj-iY-StK"/>
+                            <constraint firstItem="las-SA-otz" firstAttribute="trailing" secondItem="jrv-sm-EMA" secondAttribute="trailing" id="TTh-Ar-sqm"/>
+                            <constraint firstItem="las-SA-otz" firstAttribute="bottom" secondItem="jrv-sm-EMA" secondAttribute="bottom" id="ZfY-bT-rF1"/>
+                            <constraint firstItem="jrv-sm-EMA" firstAttribute="trailing" secondItem="P4r-ig-oYN" secondAttribute="trailing" constant="112" id="fYA-F4-iVe"/>
+                            <constraint firstItem="jrv-sm-EMA" firstAttribute="bottom" secondItem="kag-EG-DCj" secondAttribute="bottom" constant="222" id="tBg-6Y-ZbM"/>
+                            <constraint firstItem="kag-EG-DCj" firstAttribute="leading" secondItem="jrv-sm-EMA" secondAttribute="leading" constant="90" id="tvL-2n-62g"/>
+                            <constraint firstItem="P4r-ig-oYN" firstAttribute="leading" secondItem="jrv-sm-EMA" secondAttribute="leading" constant="90" id="w1Y-jn-sQv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jrv-sm-EMA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJd-j8-ryd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="485.60000000000002" y="-438.53073463268368"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JFh-SF-35f">
+            <objects>
+                <viewController id="Y7f-JT-t04" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dBV-dG-2Kr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adap makan 2" translatesAutoresizingMaskIntoConstraints="NO" id="xnT-HT-Ah0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="9JV-aV-E28"/>
+                                    <constraint firstAttribute="width" constant="375" id="QEy-8V-juJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAMA : muhammad habib h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExY-me-w0I">
+                                <rect key="frame" x="52" y="196" width="252" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6LB-2f-2H6"/>
+                                    <constraint firstAttribute="width" constant="252" id="JZ9-RW-4r0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TGL LAHIR : 14 juli 2003" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhV-pi-Hkg">
+                                <rect key="frame" x="52" y="225" width="252" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="PuR-XF-L7v"/>
+                                    <constraint firstAttribute="height" constant="21" id="S78-bz-uze"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEKOLAH : smk idn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUi-S8-kpj">
+                                <rect key="frame" x="52" y="283" width="252" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="aru-1g-xpR"/>
+                                    <constraint firstAttribute="width" constant="252" id="cee-y9-zbX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALAMAT : bekut , villa indah permai" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kag-uq-i7e">
+                                <rect key="frame" x="52" y="254" width="280" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="bHN-ge-JhZ"/>
+                                    <constraint firstAttribute="height" constant="21" id="z2u-9M-jtA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;&gt; ABOUTDEV &lt;&lt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oo-fA-pLO">
+                                <rect key="frame" x="92" y="109" width="172" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MgF-Ff-QLC"/>
+                                    <constraint firstAttribute="width" constant="172" id="rcu-i0-0MX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATUS : jofil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORH-4G-Ww9">
+                                <rect key="frame" x="52" y="316" width="252" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="1ZC-Lt-p0T"/>
+                                    <constraint firstAttribute="height" constant="21" id="SoC-zT-ZUQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC02610" translatesAutoresizingMaskIntoConstraints="NO" id="KG0-Nz-jDA">
+                                <rect key="frame" x="58" y="345" width="274" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="Huf-I9-KdG"/>
+                                    <constraint firstAttribute="height" constant="282" id="c3k-vx-han"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ExY-me-w0I" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="52" id="0Ya-VH-IBx"/>
+                            <constraint firstItem="PhV-pi-Hkg" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="52" id="2nH-Cp-HA2"/>
+                            <constraint firstItem="EUi-S8-kpj" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="52" id="3eg-XA-fCG"/>
+                            <constraint firstItem="xnT-HT-Ah0" firstAttribute="top" secondItem="dBV-dG-2Kr" secondAttribute="top" id="3l1-gf-MtH"/>
+                            <constraint firstItem="ExY-me-w0I" firstAttribute="top" secondItem="3oo-fA-pLO" secondAttribute="bottom" constant="66" id="83Q-jT-2sX"/>
+                            <constraint firstItem="Kag-uq-i7e" firstAttribute="top" secondItem="PhV-pi-Hkg" secondAttribute="bottom" constant="8" id="Djp-Cc-WXn"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="KG0-Nz-jDA" secondAttribute="trailing" constant="43" id="E5z-ax-lbl"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="PhV-pi-Hkg" secondAttribute="trailing" constant="71" id="Kla-sR-hsr"/>
+                            <constraint firstItem="PhV-pi-Hkg" firstAttribute="top" secondItem="ExY-me-w0I" secondAttribute="bottom" constant="8" id="Otj-Zn-s35"/>
+                            <constraint firstItem="3oo-fA-pLO" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="92" id="PwQ-Al-OmC"/>
+                            <constraint firstItem="ORH-4G-Ww9" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="52" id="VLz-1Z-bie"/>
+                            <constraint firstItem="xnT-HT-Ah0" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" id="Z5p-HZ-1c1"/>
+                            <constraint firstItem="EUi-S8-kpj" firstAttribute="top" secondItem="Kag-uq-i7e" secondAttribute="bottom" constant="8" id="cte-Fp-vab"/>
+                            <constraint firstItem="Kag-uq-i7e" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="52" id="d1K-AO-LCf"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="ExY-me-w0I" secondAttribute="trailing" constant="71" id="dYb-GW-94A"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="3oo-fA-pLO" secondAttribute="trailing" constant="111" id="dhR-ty-hJL"/>
+                            <constraint firstItem="3oo-fA-pLO" firstAttribute="top" secondItem="0TN-2e-Nau" secondAttribute="top" constant="45" id="eiU-f4-yiY"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="EUi-S8-kpj" secondAttribute="trailing" constant="71" id="flv-3w-xdO"/>
+                            <constraint firstItem="KG0-Nz-jDA" firstAttribute="leading" secondItem="0TN-2e-Nau" secondAttribute="leading" constant="58" id="h7H-33-eRa"/>
+                            <constraint firstItem="ORH-4G-Ww9" firstAttribute="top" secondItem="EUi-S8-kpj" secondAttribute="bottom" constant="8" id="iGs-VS-tdz"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="Kag-uq-i7e" secondAttribute="trailing" constant="43" id="mZQ-TM-0jb"/>
+                            <constraint firstItem="xnT-HT-Ah0" firstAttribute="trailing" secondItem="0TN-2e-Nau" secondAttribute="trailing" id="sjH-n9-vot"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="bottom" secondItem="KG0-Nz-jDA" secondAttribute="bottom" constant="40" id="tcL-rI-odQ"/>
+                            <constraint firstItem="xnT-HT-Ah0" firstAttribute="bottom" secondItem="0TN-2e-Nau" secondAttribute="bottom" id="vOC-Rb-6mD"/>
+                            <constraint firstItem="0TN-2e-Nau" firstAttribute="trailing" secondItem="ORH-4G-Ww9" secondAttribute="trailing" constant="71" id="y6r-Bc-dla"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0TN-2e-Nau"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsw-U2-rs9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144.8" y="-438.53073463268368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DSC02610" width="6000" height="4000"/>
+        <image name="adap makan 2" width="225" height="225"/>
+    </resources>
+</document>

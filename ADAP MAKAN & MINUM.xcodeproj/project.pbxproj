@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4923211A21804CE1002672AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923211921804CE1002672AB /* AppDelegate.swift */; };
+		4923211C21804CE1002672AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923211B21804CE1002672AB /* ViewController.swift */; };
+		4923211F21804CE1002672AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923211D21804CE1002672AB /* Main.storyboard */; };
+		4923212121804CE2002672AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4923212021804CE2002672AB /* Assets.xcassets */; };
+		4923212421804CE2002672AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923212221804CE2002672AB /* LaunchScreen.storyboard */; };
+		4923212F21804CE3002672AB /* ADAP_MAKAN___MINUMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923212E21804CE3002672AB /* ADAP_MAKAN___MINUMTests.swift */; };
+		4923213A21804CE3002672AB /* ADAP_MAKAN___MINUMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923213921804CE3002672AB /* ADAP_MAKAN___MINUMUITests.swift */; };
+		494F73472180753500FD5E05 /* adab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F73462180753500FD5E05 /* adab1ViewController.swift */; };
+		494F734B218076ED00FD5E05 /* adab1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 494F734A218076ED00FD5E05 /* adab1.mp4 */; };
+		49E269822182BA9600AD18DF /* adab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E269812182BA9600AD18DF /* adab2ViewController.swift */; };
+		49E269842182BB5600AD18DF /* Sunnah Rasul Ketika Minum Air.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 49E269832182BB5600AD18DF /* Sunnah Rasul Ketika Minum Air.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4923212B21804CE3002672AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4923210E21804CE1002672AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4923211521804CE1002672AB;
+			remoteInfo = "ADAP MAKAN & MINUM";
+		};
+		4923213621804CE3002672AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4923210E21804CE1002672AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4923211521804CE1002672AB;
+			remoteInfo = "ADAP MAKAN & MINUM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4923211621804CE1002672AB /* ADAP MAKAN & MINUM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADAP MAKAN & MINUM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4923211921804CE1002672AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4923211B21804CE1002672AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4923211E21804CE1002672AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4923212021804CE2002672AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4923212321804CE2002672AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4923212521804CE3002672AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4923212A21804CE3002672AB /* ADAP MAKAN & MINUMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADAP MAKAN & MINUMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4923212E21804CE3002672AB /* ADAP_MAKAN___MINUMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADAP_MAKAN___MINUMTests.swift"; sourceTree = "<group>"; };
+		4923213021804CE3002672AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4923213521804CE3002672AB /* ADAP MAKAN & MINUMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADAP MAKAN & MINUMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4923213921804CE3002672AB /* ADAP_MAKAN___MINUMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADAP_MAKAN___MINUMUITests.swift"; sourceTree = "<group>"; };
+		4923213B21804CE3002672AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494F73462180753500FD5E05 /* adab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adab1ViewController.swift; sourceTree = "<group>"; };
+		494F734A218076ED00FD5E05 /* adab1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = adab1.mp4; sourceTree = "<group>"; };
+		49E269812182BA9600AD18DF /* adab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adab2ViewController.swift; sourceTree = "<group>"; };
+		49E269832182BB5600AD18DF /* Sunnah Rasul Ketika Minum Air.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sunnah Rasul Ketika Minum Air.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4923211321804CE1002672AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923212721804CE3002672AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923213221804CE3002672AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4923210D21804CE1002672AB = {
+			isa = PBXGroup;
+			children = (
+				49E269832182BB5600AD18DF /* Sunnah Rasul Ketika Minum Air.mp4 */,
+				494F734A218076ED00FD5E05 /* adab1.mp4 */,
+				4923211821804CE1002672AB /* ADAP MAKAN & MINUM */,
+				4923212D21804CE3002672AB /* ADAP MAKAN & MINUMTests */,
+				4923213821804CE3002672AB /* ADAP MAKAN & MINUMUITests */,
+				4923211721804CE1002672AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4923211721804CE1002672AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4923211621804CE1002672AB /* ADAP MAKAN & MINUM.app */,
+				4923212A21804CE3002672AB /* ADAP MAKAN & MINUMTests.xctest */,
+				4923213521804CE3002672AB /* ADAP MAKAN & MINUMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4923211821804CE1002672AB /* ADAP MAKAN & MINUM */ = {
+			isa = PBXGroup;
+			children = (
+				4923211921804CE1002672AB /* AppDelegate.swift */,
+				4923211B21804CE1002672AB /* ViewController.swift */,
+				4923211D21804CE1002672AB /* Main.storyboard */,
+				494F73462180753500FD5E05 /* adab1ViewController.swift */,
+				49E269812182BA9600AD18DF /* adab2ViewController.swift */,
+				4923212021804CE2002672AB /* Assets.xcassets */,
+				4923212221804CE2002672AB /* LaunchScreen.storyboard */,
+				4923212521804CE3002672AB /* Info.plist */,
+			);
+			path = "ADAP MAKAN & MINUM";
+			sourceTree = "<group>";
+		};
+		4923212D21804CE3002672AB /* ADAP MAKAN & MINUMTests */ = {
+			isa = PBXGroup;
+			children = (
+				4923212E21804CE3002672AB /* ADAP_MAKAN___MINUMTests.swift */,
+				4923213021804CE3002672AB /* Info.plist */,
+			);
+			path = "ADAP MAKAN & MINUMTests";
+			sourceTree = "<group>";
+		};
+		4923213821804CE3002672AB /* ADAP MAKAN & MINUMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4923213921804CE3002672AB /* ADAP_MAKAN___MINUMUITests.swift */,
+				4923213B21804CE3002672AB /* Info.plist */,
+			);
+			path = "ADAP MAKAN & MINUMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4923211521804CE1002672AB /* ADAP MAKAN & MINUM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4923213E21804CE3002672AB /* Build configuration list for PBXNativeTarget "ADAP MAKAN & MINUM" */;
+			buildPhases = (
+				4923211221804CE1002672AB /* Sources */,
+				4923211321804CE1002672AB /* Frameworks */,
+				4923211421804CE1002672AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADAP MAKAN & MINUM";
+			productName = "ADAP MAKAN & MINUM";
+			productReference = 4923211621804CE1002672AB /* ADAP MAKAN & MINUM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4923212921804CE3002672AB /* ADAP MAKAN & MINUMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4923214121804CE3002672AB /* Build configuration list for PBXNativeTarget "ADAP MAKAN & MINUMTests" */;
+			buildPhases = (
+				4923212621804CE3002672AB /* Sources */,
+				4923212721804CE3002672AB /* Frameworks */,
+				4923212821804CE3002672AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4923212C21804CE3002672AB /* PBXTargetDependency */,
+			);
+			name = "ADAP MAKAN & MINUMTests";
+			productName = "ADAP MAKAN & MINUMTests";
+			productReference = 4923212A21804CE3002672AB /* ADAP MAKAN & MINUMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4923213421804CE3002672AB /* ADAP MAKAN & MINUMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4923214421804CE3002672AB /* Build configuration list for PBXNativeTarget "ADAP MAKAN & MINUMUITests" */;
+			buildPhases = (
+				4923213121804CE3002672AB /* Sources */,
+				4923213221804CE3002672AB /* Frameworks */,
+				4923213321804CE3002672AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4923213721804CE3002672AB /* PBXTargetDependency */,
+			);
+			name = "ADAP MAKAN & MINUMUITests";
+			productName = "ADAP MAKAN & MINUMUITests";
+			productReference = 4923213521804CE3002672AB /* ADAP MAKAN & MINUMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4923210E21804CE1002672AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = habdev;
+				TargetAttributes = {
+					4923211521804CE1002672AB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4923212921804CE3002672AB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4923211521804CE1002672AB;
+					};
+					4923213421804CE3002672AB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4923211521804CE1002672AB;
+					};
+				};
+			};
+			buildConfigurationList = 4923211121804CE1002672AB /* Build configuration list for PBXProject "ADAP MAKAN & MINUM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4923210D21804CE1002672AB;
+			productRefGroup = 4923211721804CE1002672AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4923211521804CE1002672AB /* ADAP MAKAN & MINUM */,
+				4923212921804CE3002672AB /* ADAP MAKAN & MINUMTests */,
+				4923213421804CE3002672AB /* ADAP MAKAN & MINUMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4923211421804CE1002672AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923212421804CE2002672AB /* LaunchScreen.storyboard in Resources */,
+				49E269842182BB5600AD18DF /* Sunnah Rasul Ketika Minum Air.mp4 in Resources */,
+				494F734B218076ED00FD5E05 /* adab1.mp4 in Resources */,
+				4923212121804CE2002672AB /* Assets.xcassets in Resources */,
+				4923211F21804CE1002672AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923212821804CE3002672AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923213321804CE3002672AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4923211221804CE1002672AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923211C21804CE1002672AB /* ViewController.swift in Sources */,
+				49E269822182BA9600AD18DF /* adab2ViewController.swift in Sources */,
+				4923211A21804CE1002672AB /* AppDelegate.swift in Sources */,
+				494F73472180753500FD5E05 /* adab1ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923212621804CE3002672AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923212F21804CE3002672AB /* ADAP_MAKAN___MINUMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4923213121804CE3002672AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4923213A21804CE3002672AB /* ADAP_MAKAN___MINUMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4923212C21804CE3002672AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4923211521804CE1002672AB /* ADAP MAKAN & MINUM */;
+			targetProxy = 4923212B21804CE3002672AB /* PBXContainerItemProxy */;
+		};
+		4923213721804CE3002672AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4923211521804CE1002672AB /* ADAP MAKAN & MINUM */;
+			targetProxy = 4923213621804CE3002672AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4923211D21804CE1002672AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4923211E21804CE1002672AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4923212221804CE2002672AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4923212321804CE2002672AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4923213C21804CE3002672AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4923213D21804CE3002672AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4923213F21804CE3002672AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ADAP MAKAN & MINUM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.ADAP-MAKAN---MINUM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4923214021804CE3002672AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ADAP MAKAN & MINUM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.ADAP-MAKAN---MINUM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4923214221804CE3002672AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ADAP MAKAN & MINUMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.ADAP-MAKAN---MINUMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADAP MAKAN & MINUM.app/ADAP MAKAN & MINUM";
+			};
+			name = Debug;
+		};
+		4923214321804CE3002672AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ADAP MAKAN & MINUMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.ADAP-MAKAN---MINUMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADAP MAKAN & MINUM.app/ADAP MAKAN & MINUM";
+			};
+			name = Release;
+		};
+		4923214521804CE3002672AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ADAP MAKAN & MINUMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.ADAP-MAKAN---MINUMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ADAP MAKAN & MINUM";
+			};
+			name = Debug;
+		};
+		4923214621804CE3002672AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ADAP MAKAN & MINUMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.ADAP-MAKAN---MINUMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ADAP MAKAN & MINUM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4923211121804CE1002672AB /* Build configuration list for PBXProject "ADAP MAKAN & MINUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4923213C21804CE3002672AB /* Debug */,
+				4923213D21804CE3002672AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4923213E21804CE3002672AB /* Build configuration list for PBXNativeTarget "ADAP MAKAN & MINUM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4923213F21804CE3002672AB /* Debug */,
+				4923214021804CE3002672AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4923214121804CE3002672AB /* Build configuration list for PBXNativeTarget "ADAP MAKAN & MINUMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4923214221804CE3002672AB /* Debug */,
+				4923214321804CE3002672AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4923214421804CE3002672AB /* Build configuration list for PBXNativeTarget "ADAP MAKAN & MINUMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4923214521804CE3002672AB /* Debug */,
+				4923214621804CE3002672AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4923210E21804CE1002672AB /* Project object */;
+}
